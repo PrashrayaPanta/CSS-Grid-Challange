@@ -1,6 +1,6 @@
 .container {
   /* background-color: red; */
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 100px;
@@ -9,7 +9,12 @@
   /* padding: 1rem; */
 }
 
-.item {
+/* .item {
+  padding: 12px;
+  background-color: red;
+} */
+
+.container > * {
   padding: 12px;
   background-color: red;
 }
